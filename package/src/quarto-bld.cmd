@@ -2,6 +2,7 @@
 
 if NOT DEFINED WIN_CONFIG_TRANSLATED call %~dp0\store_win_configuration.bat
 call %~dp0\..\..\win_configuration.bat
+if exist %~dp0\..\..\version.txt set /p QUARTO_VERSION=<%~dp0\..\..\version.txt
 
 if NOT DEFINED QUARTO_DENO (
   SET QUARTO_DENO=%~dp0\..\dist\bin\tools\x86_64\deno.exe
