@@ -1,0 +1,4 @@
+inner
+/.quarto/
+
+**/*.quarto_ipynb

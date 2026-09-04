@@ -1,0 +1,10 @@
+project:
+  type: manuscript
+
+format:
+  html: default
+  docx: default
+  jats: default
+
+
+

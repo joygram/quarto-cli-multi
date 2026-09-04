@@ -1,0 +1,8 @@
+{
+  "name": "dummy",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "eslint": "^10.0.0"
+  }
+}
